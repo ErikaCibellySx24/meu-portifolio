@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../assets/Logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import nav from '../styles/nav.modules.css';
 
 function Nav() {
   return (
@@ -12,15 +13,16 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/portfolio">Portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
-            </li>
+              <li className={nav.navItem}>
+                <a className={nav.Link} href="/">Sobre</a>
+              </li>
+              <li className={nav.navItem}>
+                <a className={nav.Link} href="/projetos">Projetos</a>
+              </li>
+              <li className={nav.navItem}>
+                <a className={nav.Link} href="/contact">Contact</a>
+              </li>
+              
           </ul>
         </div>
       </div>
