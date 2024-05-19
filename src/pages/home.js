@@ -1,38 +1,82 @@
-import React from 'react'; 
-import Nav from "../components/nav"; 
-import Foto from '../assets/foto.svg';
-import git from "../assets/icons8-github-48.svg";
-import linkedin from "../assets/icons8-linkedin-48.svg";
-import home from '../styles/home.module.css';
+//imports react 
+import React, { useState, useEffect } from 'react'; 
 
+// componentes
+import Nav from "../components/nav"; 
+import Tela2 from '../components/tela2';
+
+// img
+import Foto from '../assets/foto.svg';
+import git from "../assets/icons8-github 1.svg";
+import linkedin from "../assets/icons8-linkedin-48.svg";
+
+
+// styles
+import home from '../styles/home.module.css';
+import tela2 from '../styles/tela2.modules.css';
 
 function Home() {
-    return (
+    const [contentItems, setContentItems] = useState([]);
+    const [loading, setLoading] = useState(false);
+
+    const fetchMoreContent = () => {
+        setLoading(true);
+        setTimeout(() => {
+            const newContent = Array.from({ length: 5 }, (_, index) => ({
+                id: contentItems.length + index + 1,
+                title: `Item ${contentItems.length + index + 1}`
+            }));
+            setContentItems(prevItems => [...prevItems, ...newContent]);
+            setLoading(false);
+        }, 2000);
+    };
+
+    useEffect(() => {
+        fetchMoreContent();
+    }, [contentItems]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight) {
+                fetchMoreContent(); // Chama fetchMoreContent diretamente
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []); // Passando array vazio para garantir que o useEffect só seja executado uma vez durante a montagem do componente
+
+        return (
         <>   
-        <Nav />
-        <div className={home.aboutMe}>
-            <div className={home.containerSobreMim}>
-                <div className={home.container1}>
-                    <text className='welcome'>
-                    <h2><span className={home.saudacao}>Hello</span>,<br></br> 
-                        I'm <span className={home.meuNome}>Erika Cibelly</span>.</h2>
-                    <hr></hr>
-                    <span className='link'><img src={linkedin} alt=""></img></span>
-                    <span className='git'><img src={git} alt=""></img></span> 
-                    
-                </text>
-                </div>
-                <div className={home.container2}>
-                    <div className='foto'>
-                        <img src={Foto} alt="minha foto"/>
+            <Nav contentItems={contentItems} loading={loading} />
+            <div className={home.aboutMe}>
+                <div className={home.containerSobreMim}>
+                    <div className={home.container1}>
+                        <text className='welcome'>
+                        <h2><span className={home.saudacao}>Olá</span>,<br></br> 
+                            Me chamo <span className={home.meuNome}>Erika Cibelly</span>.</h2>
+                        <hr></hr>
+                        <span className='link'><a href='https://www.linkedin.com/in/erika-cibelly-santos-2072751a9/'><img src={linkedin} alt=""></img></a></span>
+                        <span className='git'><a href='https://github.com/ErikaCibellySx24?tab=repositories'><img src={git} alt=""></img></a></span> 
+                        
+                    </text>
                     </div>
-                    <button className={home.botaoDownload}>Download CV</button>
+                    <div className={home.container2}>
+                        <div className='foto'>
+                            <img src={Foto} alt="minha foto"/>
+                        </div>
+                        <button className={home.botaoDownload}>Download CV</button>
+                    </div>
+        
                 </div>
-    
-            </div>
-        </div> 
+            </div> 
+           < Tela2 />
         </>
     );
 }
 
 export default Home;
+

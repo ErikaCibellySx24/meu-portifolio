@@ -12,6 +12,7 @@ a{
     padding: 10PX;
 
 }
-.navBar{
-    text-align: center;
+.container{
+   padding: 10px 0px 0px 0px;
+   margin-left: 70%;
 }

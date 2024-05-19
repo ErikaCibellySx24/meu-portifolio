@@ -1,0 +1,43 @@
+.projetos {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Ajuste a altura conforme necessário */
+    margin: auto; /* Centraliza o carrossel */
+}
+
+.carousel .carousel-status{
+    color: transparent;
+    text-decoration: none;
+}
+
+.projetos .carousel .slide img {
+    width: 300px; /* Ajuste a largura das imagens conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: auto; /* Centraliza as imagens */
+    transition-duration: 500ms;
+    padding: 30px 0 5px 0;
+}
+
+
+
+.cursos {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    height: 500px; /* Ajuste a altura conforme necessário */
+    margin: auto; /* Centraliza o carrossel */
+}
+
+
+
+.cursos .carousel .slide img {
+    width: 300px; /* Ajuste a largura das imagens conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: auto; /* Centraliza as imagens */
+    
+    transition-duration: 500ms;
+    padding: 30px 0 5px 0;
+}
+
+.cursos .legend {
+    background-color: transparent;
+    border:2px solid #9747FF;
+    color: #9747FF;
+}
