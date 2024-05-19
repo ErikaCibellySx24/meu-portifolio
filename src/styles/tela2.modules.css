@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 .linha {
   display: flex;
@@ -8,8 +11,8 @@
 }
 
 .bolinha {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   margin: 0 ;
@@ -25,96 +28,119 @@
   line-height: normal;
 }
 
- 
 .linha::before,
 .linha::after {
   content: '';
   flex: 1;
   height: 1px;
   background-color: rgb(255, 255, 255);
-  
-  
-}
-.footer{
-  color: #FFF;
-  width: auto;
-  height: 207px;
-  text-align: center;
 }
 
-.logo{
-  width: 50px;
-  height: 50px;
-}
-.textCitacao{
+.container-footer{
   display: flex;
-    flex-shrink: 1;
-    width: 508px;
-    color: #FFF;
-    font-family: Inconsolata;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: justify;
-    margin: 10% 0% 0% 5%;
-    padding: 20px;
-  }
-  
-.blurBackground {
-  position: absolute;
-  top: 0;
-  left: 0;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
   width: 100%;
-  height: 100%;
-  background: rgba(47, 34, 130, 0.51); /* Fundo com desfoque */
- 
-  z-index: -1; /* Garante que este elemento fique atrás do conteúdo */
-}
-
-
-.copy{
-color: #FFF;
-font-family: Inconsolata;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  padding: 20px;
+  background: rgba(47, 34, 130, 0.51);
 
 }
 
-.footerNav a{
+/* Estilos para a citação */
+.textCitacao {
+  flex: 1;
+  padding: 20px;
+  width: 508px;
   color: #FFF;
-}
-.footerNav{
-  color: #FFF;
-  font-family: Inconsolata;
+  font-family: Inconsolata, monospace;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 65%;
-  z-index: 1;
+  text-align: left; 
   
-
+}
+.container-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* Estilos para o texto de direitos autorais */
+.copy {
+  flex: 1;
+  padding: 0;
+  color: #FFF;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center; 
+  align-items: end;
+  width: 250px;
+  
 }
 
-.footerNav ul { 
-  padding:0px;
-  margin:0px;
-  background-color:#EDEDED;
-  list-style:none;
+/* Estilos para o menu de navegação do rodapé */
+.footerNav {
+  flex: 1;
+  padding: 20px;
+  color: #FFF;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right; /* Alinha o texto à direita */
+}
+.logo{
+  width: 35px;
+  height: 35px;
+
+}
+.footerNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.footerNav li { 
-  display: inline; 
+.footerNav li {
+  display: inline;
+  margin: 0 10px; /* Espaçamento entre os itens */
 }
 
-.footerNav ul li a { 
-  padding: 2px 10px; 
-  display: inline-block; 
-  color: #fff; 
-  text-decoration: none; 
-  border-bottom:3px solid #EDEDED; 
+.footerNav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
 }
 
+.footerNav ul li a:hover {
+  border-bottom: 3px solid #FFF;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .textCitacao,
+  .copy,
+  .footerNav {
+    text-align: center; /* Centraliza o texto em dispositivos móveis */
+    flex: none; /* Remove o comportamento flexível */
+    width: 100%; /* Faz com que cada seção ocupe 100% da largura */
+    margin-bottom: 20px; /* Adiciona espaçamento entre as seções */
+  }
+
+  .footerNav {
+    margin-bottom: 0; /* Remove o espaçamento inferior do último item */
+  }
+}

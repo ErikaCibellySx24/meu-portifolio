@@ -1,43 +1,74 @@
+
+
 .projetos {
-    width: 80%; /* Ajuste a largura conforme necessário */
-    height: 300px; /* Ajuste a altura conforme necessário */
-    margin: auto; /* Centraliza o carrossel */
+    width: 80%; 
+    height: 300px; 
+    margin: auto; 
+} 
+
+.carousel .control-dots{
+    bottom: -14px;
+    
+}
+.carousel .control-dots .dot{
+    background-color: #FFF;
+    width: 23px;
+    height: 6px;
+    border-radius: 0;
 }
 
-.carousel .carousel-status{
-    color: transparent;
-    text-decoration: none;
+.carousel .carousel-indicators{
+    width: 20px;
+    height: 10px;
 }
 
 .projetos .carousel .slide img {
-    width: 300px; /* Ajuste a largura das imagens conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    margin: auto; /* Centraliza as imagens */
+    width: 362px; 
+    height: 198px; 
+    margin-top: 60px; 
     transition-duration: 500ms;
-    padding: 30px 0 5px 0;
+    padding: 5px;
+    border: 2px solid #DADADA;
+
+    
+    background: linear-gradient(0deg, #262577 0%, #262577 100%), linear-gradient(0deg, #3B50BF 0%, #3B50BF 100%), #FFF;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
+.projetos .carousel .slide img:hover{
+    transition: step-end;
+    cursor: pointer;
+    transform: scale(2);
+    
+}
+ 
+
+
 
 
 
 .cursos {
-    width: 80%; /* Ajuste a largura conforme necessário */
-    height: 500px; /* Ajuste a altura conforme necessário */
-    margin: auto; /* Centraliza o carrossel */
+    width: 80%; 
+    height: 500px; 
+    margin: auto;
 }
 
 
 
 .cursos .carousel .slide img {
-    width: 300px; /* Ajuste a largura das imagens conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    margin: auto; /* Centraliza as imagens */
-    
+    width: 362px; 
+    height: 198px; 
+    margin-top: 60px; 
     transition-duration: 500ms;
-    padding: 30px 0 5px 0;
-}
+    padding: 5px;
+    border: 2px solid #DADADA;
 
-.cursos .legend {
-    background-color: transparent;
-    border:2px solid #9747FF;
-    color: #9747FF;
+    
+    background: linear-gradient(0deg, #262577 0%, #262577 100%), linear-gradient(0deg, #3B50BF 0%, #3B50BF 100%), #FFF;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.cursos .carousel .slide img:hover{
+    transition: step-end;
+    cursor: pointer;
+    transform: scale(2);
+    
 }

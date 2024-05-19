@@ -1,8 +1,8 @@
 body {
     background: linear-gradient(180deg, #0E0D42 60.00%, #2421A8 90.00%, #350694 30.00%);
     font-family: Inconsolata;
-    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da viewport */
-    position: relative; /* Adicionado para que o posicionamento do ::after funcione corretamente */
+    min-height: 100vh; 
+    position: relative; 
 }
 
 
@@ -10,7 +10,7 @@ body::after {
     content: "";
     background-image: url(../assets/backgorund2.svg);
     background-repeat: no-repeat;
-    background-size: cover; /* Ajuste conforme necessário */
+    background-size: cover; 
     position: absolute;
     bottom: 0;
     left: 0;
@@ -19,6 +19,15 @@ body::after {
     z-index: -1; 
     opacity: 0.3;
 }
+.top-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: url(../assets//efeitoTopo.svg);
+    z-index: 0; 
+  }
 
 
 .aboutMe{
@@ -82,6 +91,22 @@ body::after {
     border:2px solid #9747FF;
     text-decoration: none;
     font: Inconsolata;
+    z-index: 1; 
 
 
 }
+.botaoDownload:hover{
+    width: 238px;
+    height: 32px;
+    flex-shrink: 0;
+    color:#ffffff;
+    background-color: #9747FF;
+    border:2px solid #eee9e928;
+    text-decoration: none;
+    font: Inconsolata;
+    z-index: 1; 
+
+
+}
+
+

@@ -37,3 +37,14 @@ a, .Link:hover {
    padding: 10px 0px 0px 0px;
    margin-left: 70%;
 }
+
+.navbar-toggler{
+  border: 1px solid #fff;
+  position: relative;
+  margin-left: -210%;
+}
+.navbar-toggler-icon{
+  background-image: url(../assets/menuIcon.svg);
+}
+
+

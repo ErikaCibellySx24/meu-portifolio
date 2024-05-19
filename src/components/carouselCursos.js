@@ -14,9 +14,12 @@ const CarrosselCurso = () => {
         <div className='cursos'>
             <Carousel 
                 showThumbs={false} 
-                autoPlay={true} 
-                infiniteLoop={true}>
-                <div className={carrosselStyle.slider}>
+                autoPlay={false} 
+                infiniteLoop={true} 
+                showIndicators={true}  
+                showStatus={false}  >
+               
+                    <div className={carrosselStyle.slider}>
                         <img src={cursos1} alt="Slide 1" className={carrosselStyle.img} />
                         <p className={carrosselStyle.legend}></p>
                     </div>
@@ -28,6 +31,7 @@ const CarrosselCurso = () => {
                         <img src={cursos3} alt="Slide 3" className={carrosselStyle.img} />
                         <p className={carrosselStyle.legend}></p>
                     </div>
+                
             </Carousel>
         </div>
     );

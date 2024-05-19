@@ -28,21 +28,27 @@ function Tela2(){
                 <Curso />
             </div>
             <footer className="footer"> 
-            <div class="blurBackground"></div>               
-                <text className="textCitacao">
-                    "Special cases are not special enough to break the rules." The Zen of Python, by Tim Peters."
-                </text>
-                
-                <div className="navFooter">
-                    <ul className="footerNav">
-                        <li><img src={logo} alt="" className="logo"/></li>
-                        <li><a href="#sobre">sobre</a></li>
-                        <li><a href="#projetos">projetos</a></li>
-                        <li><a href="mailto:erikacibelly034@gmail.com">contato</a></li>
-                    </ul>
+                <div class="blurBackground"></div>  
+                <div className="container-footer">             
+                    <text className="textCitacao">
+                        "Special cases are not special enough to break the rules." The Zen of Python, by Tim Peters."
+                    </text>
+                    <h4 className={tela2.copy}>
+                        <a href="http://localhost:3000/">
+                            © 2024 Cibelly Santos
+                        </a>
+                    </h4>
+                    
+                    <div className="navFooter">
+                        <ul className="footerNav">
+                            <li className="itens"><img src={logo} alt="" className="logo"/></li>
+                            <li className="itens"><a href="#sobre">sobre</a></li>
+                            <li className="itens"><a href="#projetos">projetos</a></li>
+                            <li className="itens"><a href="mailto:erikacibelly034@gmail.com">contato</a></li>
+                        </ul>
+                    </div>
+                    
                 </div>
-                <h4 className={tela2.copy}>
-                    © 2024 Cibelly Santos</h4>
             </footer>
         </div>
         </>

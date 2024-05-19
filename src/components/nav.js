@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import navStyles from '../styles/nav.modules.css';
 
-// Corrija a sintaxe da função de seta
+
 const Nav = ({ contentItems, loading }) => {
   return (
     <nav className="navbar navbar-expand-lg ">

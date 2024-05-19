@@ -12,8 +12,9 @@ import linkedin from "../assets/icons8-linkedin-48.svg";
 
 
 // styles
-import home from '../styles/home.module.css';
-import tela2 from '../styles/tela2.modules.css';
+import home from '../styles/home.modules.css';
+
+
 
 function Home() {
     const [contentItems, setContentItems] = useState([]);
@@ -60,24 +61,27 @@ function Home() {
 
         return (
         <>   
+            <div className='top-background'>
+                
+            </div>
             <Nav contentItems={contentItems} loading={loading} />
-            <div id="sobre" className={home.aboutMe}>
-                <div className={home.containerSobreMim}>
-                    <div className={home.container1}>
+            <div id="sobre" className='aboutMe'>
+                <div className='containerSobreMim'>
+                    <div className='container1'>
                         <text className='welcome'>
-                        <h2><span className={home.saudacao}>Olá</span>,<br></br> 
-                            Me chamo <span className={home.meuNome}>Erika Cibelly</span>.</h2>
+                        <h2><span className='saudacao'>Olá</span>,<br></br> 
+                            Me chamo <span className='meuNome'>Erika Cibelly</span>.</h2>
                         <hr></hr>
                         <span className='link'><a href='https://www.linkedin.com/in/erika-cibelly-santos-2072751a9/'><img src={linkedin} alt=""></img></a></span>
                         <span className='git'><a href='https://github.com/ErikaCibellySx24?tab=repositories'><img src={git} alt=""></img></a></span> 
                         
                     </text>
                     </div>
-                    <div className={home.container2}>
+                    <div className='container2'>
                         <div className='foto'>
                             <img src={Foto} alt="minha foto"/>
                         </div>
-                        <button className={home.botaoDownload} onClick={handleDownloadClick}>Download CV</button>
+                        <button className='botaoDownload' onClick={handleDownloadClick}>Download CV</button>
                     </div>
         
                 </div>
