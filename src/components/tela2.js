@@ -2,7 +2,7 @@ import React from "react";
 import tela2 from "../styles/tela2.modules.css";
 import Projetos from "../components/carouselProjetos.js";
 import Curso from "../components/carouselCursos.js";
-
+import logo from "../assets/favicon.svg";
 
 
 function Tela2(){
@@ -35,6 +35,7 @@ function Tela2(){
                 
                 <div className="navFooter">
                     <ul className="footerNav">
+                        <li><img src={logo} alt="" className="logo"/></li>
                         <li><a href="#sobre">sobre</a></li>
                         <li><a href="#projetos">projetos</a></li>
                         <li><a href="#cursos">cursos</a></li>
