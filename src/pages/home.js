@@ -38,7 +38,7 @@ function Home() {
     useEffect(() => {
         const handleScroll = () => {
             if (window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight) {
-                fetchMoreContent(); // Chama fetchMoreContent diretamente
+                fetchMoreContent(); 
             }
         };
 
@@ -47,12 +47,21 @@ function Home() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []); // Passando array vazio para garantir que o useEffect só seja executado uma vez durante a montagem do componente
+    }, []); 
+
+    const handleDownloadClick = () => {
+        const link = document.createElement('a');
+        link.href = process.env.PUBLIC_URL + "/CV - ERIKA C G SANTOS.pdf"; 
+        link.download = "CV - Erika C G Santos.pdf"; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
         return (
         <>   
             <Nav contentItems={contentItems} loading={loading} />
-            <div className={home.aboutMe}>
+            <div id="sobre" className={home.aboutMe}>
                 <div className={home.containerSobreMim}>
                     <div className={home.container1}>
                         <text className='welcome'>
@@ -68,7 +77,7 @@ function Home() {
                         <div className='foto'>
                             <img src={Foto} alt="minha foto"/>
                         </div>
-                        <button className={home.botaoDownload}>Download CV</button>
+                        <button className={home.botaoDownload} onClick={handleDownloadClick}>Download CV</button>
                     </div>
         
                 </div>

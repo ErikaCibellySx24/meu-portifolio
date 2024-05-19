@@ -12,6 +12,27 @@ a{
     padding: 10PX;
 
 }
+.Link{
+    text-decoration: none;
+    color: hsl(266, 100%, 64%);
+    text-align: cemter;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10PX;   
+}
+.Link:hover {
+    cursor: pointer;
+  }
+a, .Link:hover {
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Sombra branca */
+  }
+
 .container{
    padding: 10px 0px 0px 0px;
    margin-left: 70%;

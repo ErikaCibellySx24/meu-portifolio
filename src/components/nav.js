@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import navStyles from '../styles/nav.modules.css';
 
@@ -14,13 +15,13 @@ const Nav = ({ contentItems, loading }) => {
         <div className="collapse navbar-collapse" >
           <ul className="navbar-nav ml-auto" id={navStyles.navBarNav}>
               <li className={navStyles.navItem}>
-                <a className={navStyles.Link} href="/">Sobre</a>
+                <Link className="Link" to="sobre" smooth={true} duration={200}>Sobre</Link>
+              </li>
+              <li className={navStyles.navItem}>  
+                <Link className="Link" to="projetos" smooth={true} duration={150}>Projetos</Link>
               </li>
               <li className={navStyles.navItem}>
-                <a className={navStyles.Link} href="/projetos">Projetos</a>
-              </li>
-              <li className={navStyles.navItem}>
-                <a className={navStyles.Link} href="/contact">Contato</a>
+                <a className="Link" href="mailto:erikacibelly034@gmail.com">Contato</a>
               </li>
           </ul>
         </div>

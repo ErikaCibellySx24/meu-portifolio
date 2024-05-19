@@ -10,7 +10,7 @@ function Tela2(){
         <>
        
         <div className={tela2.body}>
-            <div className="carrossel-projetos">
+            <div id="projetos" className="carrossel-projetos">
                 <div className="linha">
                     <div className="bolinha"></div>
                     <div className="nome">Projetos</div>
@@ -38,7 +38,7 @@ function Tela2(){
                         <li><img src={logo} alt="" className="logo"/></li>
                         <li><a href="#sobre">sobre</a></li>
                         <li><a href="#projetos">projetos</a></li>
-                        <li><a href="#cursos">cursos</a></li>
+                        <li><a href="mailto:erikacibelly034@gmail.com">contato</a></li>
                     </ul>
                 </div>
                 <h4 className={tela2.copy}>
