@@ -109,4 +109,12 @@ body::after {
 
 }
 
+.link{
+    z-index: 1;
+}
+
+.git{
+    z-index: 1;
+}
+
 
