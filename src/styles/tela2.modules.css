@@ -106,6 +106,25 @@
   }
 }
 
+@media (max-width: 511px) {
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    padding: 10px; /* Ajusta o padding para telas menores */
+  }
+  
+  .copy, .footerNav {
+    flex: 1 1 100%;
+    padding: 10px 0; /* Ajusta o padding para evitar cortes */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .footerNav {
+    text-align: center; /* Centraliza os links de navegação no rodapé */
+  }
+}
+
 
 @media (max-width: 480px) {
   .container-footer {
