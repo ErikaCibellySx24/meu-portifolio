@@ -124,7 +124,7 @@
   border-bottom: 3px solid #FFF;
 }
 
-/* Responsividade */
+/* Responsividade 
 @media (max-width: 800px) {
   .footer {
     flex-direction: column;
@@ -141,6 +141,20 @@
   }
 
   .footerNav {
-    margin-bottom: 0; /* Remove o espaçamento inferior do último item */
+    margin-bottom: 0;
+  }
+}
+*/
+@media (max-width: 768px) {
+  .container-footer {
+    flex-direction: column; 
+    padding: 10px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .container-footer {
+    padding: 5px; 
   }
 }
