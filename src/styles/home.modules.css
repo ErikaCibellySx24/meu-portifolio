@@ -41,7 +41,7 @@ body::after {
     grid-gap: 10px;
     place-items: center;
     background: rgba(218, 185, 185, 0.08);
-    width: 85%;
+    width: 93%;
     height: 450px;
     padding: 5%;
     z-index: 1;
@@ -109,6 +109,16 @@ body::after {
     z-index: 1; 
 
 
+}
+
+@media (max-width: 454px) {
+    .foto{
+     width: 192px;
+    }
+    
+    .botaoDownload{
+    width: 192px;
+  }
 }
 
 
