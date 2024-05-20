@@ -124,27 +124,7 @@
   border-bottom: 3px solid #FFF;
 }
 
-/* Responsividade 
-@media (max-width: 800px) {
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .textCitacao,
-  .copy,
-  .footerNav {
-    text-align: center; /* Centraliza o texto em dispositivos móveis */
-    flex: none; /* Remove o comportamento flexível */
-    width: 100%; /* Faz com que cada seção ocupe 100% da largura */
-    margin-bottom: 20px; /* Adiciona espaçamento entre as seções */
-  }
-
-  .footerNav {
-    margin-bottom: 0;
-  }
-}
-*/
+/* Responsividade */
 @media (max-width: 768px) {
   .container-footer {
     flex-direction: column; 
