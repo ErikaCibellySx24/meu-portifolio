@@ -73,7 +73,7 @@ function Home() {
                             Me chamo <span className='meuNome'>Erika Cibelly</span>.</h2>
                         <hr></hr>
                         <span className='link'><a href='https://www.linkedin.com/in/erika-cibelly-santos-2072751a9/'><img src={linkedin} alt=""></img></a></span>
-                        <span className='git'><a href='https://github.com/ErikaCibellySx24?tab=repositories'><img src={git} alt=""></img></a></span> 
+                        <span className='git'><a href='https://github.com/ErikaCibellySx24'><img src={git} alt=""></img></a></span> 
                         
                     </text>
                     </div>
