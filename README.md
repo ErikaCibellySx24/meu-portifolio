@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Portfólio Pessoal - Erika Cibelly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status](https://img.shields.io/badge/status-online-green)
+![React](https://img.shields.io/badge/React-18.x-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Available Scripts
+## 🌐 Visite meu Portfólio
 
-In the project directory, you can run:
+Acesse o meu portfólio online clicando no link abaixo:
 
-### `npm start`
+[**Erika Cibelly - Portfólio**](https://erikacibellyportifolio.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖋️ Sobre o Projeto
 
-### `npm test`
+Este é o meu portfólio pessoal, criado com **React**, para exibir minha trajetória profissional, habilidades, projetos realizados e metas futuras. O objetivo principal é apresentar meu trabalho de forma interativa e responsiva.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📋 Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Página Inicial**: Apresentação pessoal e links rápidos para navegação.
+- **Sobre Mim**: Um resumo da minha história, habilidades e interesses.
+- **Projetos**: Seção destacando os projetos mais relevantes com links para o GitHub e site.
+- **Responsividade**: Totalmente otimizado para diferentes tamanhos de tela (desktop, tablet e mobile).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run eject`
+- **React**: Framework para criação da interface.
+- **JavaScript (ES6+)**: Linguagem principal do projeto.
+- **CSS Modules**: Estilização de componentes.
+- **HTML5**: Estrutura semântica do site.
+- **Vercel**: Hospedagem do projeto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Como Executar Localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Pré-requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Node.js** (versão 16 ou superior)
+- Gerenciador de pacotes **npm** ou **yarn**
 
-## Learn More
+### Passos para Instalação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/erikacibelly-portifolio.git
+   cd erikacibelly-portifolio
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+   ou
+   ```bash
+   yarn install
+   ```
 
-### Code Splitting
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+   ou
+   ```bash
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Acesse o site no navegador:
+   ```
+   http://localhost:3000
+   ```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📁 Estrutura de Diretórios
 
-### Making a Progressive Web App
+```plaintext
+.
+├── public          # Arquivos públicos e estáticos
+├── src
+│   ├── components  # Componentes reutilizáveis
+│   ├── pages       # Páginas do site
+│   ├── styles      # Arquivos de estilização
+│   ├── assets      # Imagens e outros recursos
+│   └── App.js      # Componente raiz do projeto
+├── package.json    # Configurações e dependências
+├── README.md       # Documentação do projeto
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📞 Contato
 
-### `npm run build` fails to minify
+Se você tiver dúvidas ou sugestões, entre em contato comigo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Nome**: Erika Cibelly
+- **LinkedIn**: [linkedin.com/in/erikacibelly](https://linkedin.com/in/erikacibelly)
+- **Portfólio**: [erikacibellyportifolio.vercel.app](https://erikacibellyportifolio.vercel.app/)
+- **Email**: [erikacibelly@example.com](mailto:erikacibelly@example.com)
