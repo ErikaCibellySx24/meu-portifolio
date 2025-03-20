@@ -79,7 +79,7 @@ function Home() {
                     </div>
                     <div className='container2'>
                         <div className='foto'>
-                            <img src={Foto} alt="minha foto"/>
+                            <img src={Foto} alt="minha foto" width="185px"/>
                         </div>
                         <button className='botaoDownload' onClick={handleDownloadClick}>Download CV</button>
                     </div>
