@@ -80,6 +80,7 @@ body::after {
 .container2{
     display: grid;
     justify-self: center;
+    justify-items: center;
     grid-gap: 10px;
     
 }
@@ -88,9 +89,9 @@ body::after {
     width: 238px;
     height: 32px;
     flex-shrink: 0;
-    color:#9747FF;
+    color:#ffffff;
     background-color: transparent;
-    border:2px solid #9747FF;
+    border:2px solid #ffffff;
     text-decoration: none;
     font: Inconsolata;
     z-index: 1; 
@@ -101,9 +102,9 @@ body::after {
     width: 238px;
     height: 32px;
     flex-shrink: 0;
-    color:#ffffff;
-    background-color: #9747FF;
-    border:2px solid #eee9e928;
+    color:#9747FF;
+    background-color: transparent;
+    border:2px solid #9747FF;
     text-decoration: none;
     font: Inconsolata;
     z-index: 1; 
