@@ -52,7 +52,7 @@ function Home() {
 
     const handleDownloadClick = () => {
         const link = document.createElement('a');
-        link.href = process.env.PUBLIC_URL + "/CV - ERIKA CIBELLY GOMES SANTOS - AD.pdf"; 
+        link.href = process.env.PUBLIC_URL + "/DADOS CV - ERIKA CIBELLY GOMES SANTOS.pdf"; 
         link.download = "CV - ERIKA CIBELLY GOMES SANTOS - AD.pdf"; 
         document.body.appendChild(link);
         link.click();
