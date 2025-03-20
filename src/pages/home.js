@@ -6,7 +6,7 @@ import Nav from "../components/nav";
 import Tela2 from '../components/tela2';
 
 // img
-import Foto from '../assets/foto.svg';
+import Foto from '../assets/foto.jpeg';
 import git from "../assets/icons8-github 1.svg";
 import linkedin from "../assets/icons8-linkedin-48.svg";
 
