@@ -46,7 +46,7 @@ function Tela2(){
                             {/* <li className="itens"><a href="mailto:erikacibelly034@gmail.com">contato</a></li> */}
                         </ul>
                     </div>
-                    <div class="blurBackground"></div>
+                    {/* <div class="blurBackground"></div> */}
                 </div>
             </footer>
         </div>
