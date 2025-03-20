@@ -2,7 +2,7 @@ import React from "react";
 import tela2 from "../styles/tela2.modules.css";
 import Projetos from "../components/carouselProjetos.js";
 import Curso from "../components/carouselCursos.js";
-import logo from "../assets/favicon.svg";
+
 
 
 function Tela2(){
@@ -28,7 +28,7 @@ function Tela2(){
                 <Curso />
             </div>
             <footer className="footer"> 
-                <div class="blurBackground"></div>  
+                  
                 <div className="container-footer">             
                     <text className="textCitacao">
                         "Special cases are not special enough to break the rules." The Zen of Python, by Tim Peters."
@@ -41,13 +41,12 @@ function Tela2(){
                     
                     <div className="navFooter">
                         <ul className="footerNav">
-                            <li className="itens"><img src={logo} alt="" className="logo"/></li>
                             <li className="itens"><a href="#sobre">sobre</a></li>
                             <li className="itens"><a href="#projetos">projetos</a></li>
-                            <li className="itens"><a href="mailto:erikacibelly034@gmail.com">contato</a></li>
+                            {/* <li className="itens"><a href="mailto:erikacibelly034@gmail.com">contato</a></li> */}
                         </ul>
                     </div>
-                    
+                    <div class="blurBackground"></div>
                 </div>
             </footer>
         </div>

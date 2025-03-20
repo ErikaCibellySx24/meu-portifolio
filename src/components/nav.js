@@ -20,9 +20,9 @@ const Nav = ({ contentItems, loading }) => {
               <li className={navStyles.navItem}>  
                 <Link className="Link" to="projetos" smooth={true} duration={150}>Projetos</Link>
               </li>
-              <li className={navStyles.navItem}>
+              {/* <li className={navStyles.navItem}>
                 <a className="Link" href="mailto:erikacibelly034@gmail.com">Contato</a>
-              </li>
+              </li> */}
           </ul>
         </div>
       </div>

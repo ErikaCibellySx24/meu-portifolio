@@ -113,11 +113,11 @@ body::after {
 
 @media (max-width: 454px) {
     .foto{
-     width: 192px;
+     width: 98%;
     }
     
     .botaoDownload{
-    width: 192px;
+    width: 97%;
   }
 }
 

@@ -1,5 +1,3 @@
-
-
 .projetos {
     width: 80%; 
     height: 300px; 
@@ -29,8 +27,6 @@
     transition-duration: 500ms;
     padding: 5px;
     border: 2px solid #DADADA;
-
-    
     background: linear-gradient(0deg, #262577 0%, #262577 100%), linear-gradient(0deg, #3B50BF 0%, #3B50BF 100%), #FFF;
     transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
