@@ -118,6 +118,7 @@ body::after {
 @media (max-width: 454px) {
     .foto{
      width: 98%;
+     margin-top: 65px;
     }
     
     .botaoDownload{
