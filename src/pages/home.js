@@ -61,9 +61,6 @@ function Home() {
 
         return (
         <>   
-            <div className='top-background'>
-                
-            </div>
             <Nav contentItems={contentItems} loading={loading} />
             <div id="sobre" className='aboutMe'>
                 <div className='containerSobreMim'>

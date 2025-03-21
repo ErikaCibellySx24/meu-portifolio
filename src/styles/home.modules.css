@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(180deg, #0E0D42 60.00%, #2421A8 90.00%, #350694 30.00%);
+    /* background: linear-gradient(180deg, #0E0D42 60.00%, #2421A8 90.00%, #350694 30.00%); */
+    background: linear-gradient(180deg, #350694  60.00%, #0E0D42  90.00%, #2421A8  30.00%);;
     font-family: Inconsolata;
     min-height: 100vh; 
     position: relative; 
@@ -79,10 +80,10 @@ body::after {
 }
 .container2{
     display: grid;
-    margin-top: -67px;
+    margin-top: -59px;
     justify-self: center;
     justify-items: center;
-    grid-gap: 10px;
+    grid-gap: 36px;
     
 }
 
@@ -95,6 +96,7 @@ body::after {
     border:2px solid #ffffff;
     text-decoration: none;
     font: Inconsolata;
+    margin-top: 26px;
     z-index: 1; 
 
 
@@ -108,6 +110,7 @@ body::after {
     border:2px solid #9747FF;
     text-decoration: none;
     font: Inconsolata;
+    margin-top: 26px;
     z-index: 1; 
 
 
