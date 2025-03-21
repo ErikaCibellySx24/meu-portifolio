@@ -38,14 +38,6 @@ function Tela2(){
                             © 2024 Cibelly Santos
                         </a>
                     </h4>
-                    
-                    <div className="navFooter">
-                        <ul className="footerNav">
-                            <li className="itens"><a href="#sobre">sobre</a></li>
-                            <li className="itens"><a href="#projetos">projetos</a></li>
-                            {/* <li className="itens"><a href="mailto:erikacibelly034@gmail.com">contato</a></li> */}
-                        </ul>
-                    </div>
                     {/* <div class="blurBackground"></div> */}
                 </div>
             </footer>
