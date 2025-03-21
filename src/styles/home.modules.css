@@ -1,6 +1,6 @@
 body {
     /* background: linear-gradient(180deg, #0E0D42 60.00%, #2421A8 90.00%, #350694 30.00%); */
-    background: linear-gradient(180deg, #350694  60.00%, #0E0D42  90.00%, #2421A8  30.00%);;
+    background: linear-gradient(180deg, #2421A8   60.00%, #0E0D42  90.00%, #350694   30.00%);
     font-family: Inconsolata;
     min-height: 100vh; 
     position: relative; 
@@ -96,7 +96,7 @@ body::after {
     border:2px solid #ffffff;
     text-decoration: none;
     font: Inconsolata;
-    margin-top: 26px;
+    margin-top: 23px;
     z-index: 1; 
 
 
@@ -110,7 +110,7 @@ body::after {
     border:2px solid #9747FF;
     text-decoration: none;
     font: Inconsolata;
-    margin-top: 26px;
+    margin-top: 23px;
     z-index: 1; 
 
 
