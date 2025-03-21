@@ -80,7 +80,7 @@ body::after {
 }
 .container2{
     display: grid;
-    margin-top: -59px;
+    margin-top: -78px;
     justify-self: center;
     justify-items: center;
     grid-gap: 36px;
