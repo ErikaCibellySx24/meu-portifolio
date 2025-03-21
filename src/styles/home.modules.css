@@ -102,7 +102,6 @@ body::after {
 
 }
 .botaoDownload:hover{
-    width: 238px;
     height: 32px;
     flex-shrink: 0;
     color:#9747FF;
