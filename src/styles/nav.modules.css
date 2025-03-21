@@ -41,6 +41,9 @@ a, .Link:hover {
   position: relative;
   margin-left: 26px;
 }
+.navbar-toggler:hover{
+  color: #9747ff;
+}
 .navbar-toggler-icon{
   background-image: url(../assets/menuIcon.svg);
 }
