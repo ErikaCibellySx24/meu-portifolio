@@ -82,7 +82,7 @@ body::after {
     display: grid;
     justify-self: center;
     justify-items: center;
-    grid-gap: 36px;
+    /* grid-gap: 36px; */
     
 }
 
