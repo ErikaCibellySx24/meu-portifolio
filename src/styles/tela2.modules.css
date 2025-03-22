@@ -43,6 +43,7 @@
   box-sizing: border-box;
   padding: 20px; 
   color: #FFF;
+  gap: 20px;
 
  
 }
@@ -76,11 +77,6 @@
   line-height: normal;
   text-align: right; /* Alinha o texto à direita */
   box-sizing: border-box;
-}
-
-.logo {
-  width: 35px;
-  height: 35px;
 }
 
 .footerNav ul {
