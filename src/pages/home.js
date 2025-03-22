@@ -75,10 +75,20 @@ function Home() {
                     </text>
                     </div>
                     <div className='container2'>
-                        <div className='foto'>
-                            <img src={Foto} alt="minha foto" width="185px"/>
+                        <div className='card-inner'></div>
+                            <div className='foto'>
+                                <img src={Foto} alt="minha foto" width="185px"/>
+                            </div>
+                            <button className='botaoDownload' onClick={handleDownloadClick}>Download CV</button>
                         </div>
-                        <button className='botaoDownload' onClick={handleDownloadClick}>Download CV</button>
+                        <div className='card-back'>
+                            <h2>
+                                Que bom que veio até aqui!
+                                Fico feliz em poder compartilhar um pouco de quem sou e do que estou aprendendo.
+
+    
+                            </h2>
+                        </div>
                     </div>
         
                 </div>
