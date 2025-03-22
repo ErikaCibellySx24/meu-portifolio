@@ -37,9 +37,10 @@ a, .Link:hover {
 }
 
 .navbar-toggler{
-  border: 1px solid #fff;
-  position: relative;
-  margin-left: 26px;
+  /*border: 1px solid #fff; */
+  margin-top: 5%;
+  margin-left: -68%;
+  position: absolute;
 }
 .navbar-toggler:hover{
   color: #9747ff;
