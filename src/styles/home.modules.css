@@ -126,7 +126,7 @@ body::after {
     transform: rotateY(180deg); /* Faz o flip ao passar o mouse */
 }
 
-    .card-front, .card-back {
+.card-front, .card-back {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -137,6 +137,7 @@ body::after {
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
+    z-index: 2; /* Mantém o texto na frente */
 }
 
 .card-front {
@@ -145,9 +146,12 @@ body::after {
 }
 
 .card-back {
-    background-color: #e74c3c; /* Vermelho */
-    color: white;
-    transform: rotateY(180deg); /* Posiciona o verso inicialmente */
+    margin-top: -39px;
+    width: 600px;
+    height: 323px;
+    background-color: #252b23;
+    color: #fff;
+    transform: rotatey(66deg); /* Posiciona o verso inicialmente */
 }
 
 @media (max-width: 454px) {
