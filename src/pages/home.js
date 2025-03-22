@@ -84,12 +84,12 @@ function Home() {
                             </div>
                             <button className='botaoDownload' onClick={handleDownloadClick}>Download CV</button>
                         </div>
-                        <div className='card-back'>
+                        {/* <div className='card-back'>
                             <h2>
                                 Que bom que veio até aqui!
                                 Fico feliz em poder compartilhar um pouco de quem sou e do que estou aprendendo.
                             </h2>
-                        </div>
+                        </div> */}
                     </div>
         
                 </div>
