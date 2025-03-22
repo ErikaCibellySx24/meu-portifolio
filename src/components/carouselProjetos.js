@@ -39,14 +39,6 @@ const CarrosselProjeto = () => {
                     <img src={projeto3} alt="Slide 3" className="img" />
                     <p className={carrosselStyle.legend}></p>
                 </div>
-                <div className={carrosselStyle.slider}>
-                    <img src={projeto4} alt="Slide 2" className="img" />
-                    <p className={carrosselStyle.legend}></p>
-                </div>
-                <div className={carrosselStyle.slider}>
-                    <img src={projeto5} alt="Slide 3" className="img" />
-                    <p className={carrosselStyle.legend}></p>
-                </div>
             </Carousel>
             
         </div>
