@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import carrosselStyle from "../styles/carousel.modules.css";
 
-import projeto1 from "../assets/testes/meu_portifoli.png";
+import projeto1 from "../assets/testes/meu meu_portifoli.png";
 import projeto2 from "../assets/testes/analise_padroes_nlp.png";
 import projeto3 from "../assets/testes/lafepe.png";
 
