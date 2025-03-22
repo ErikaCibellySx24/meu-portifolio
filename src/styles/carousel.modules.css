@@ -21,19 +21,20 @@
 }
 
 .projetos .carousel .slide img {
-    width: 362px; 
-    height: 198px; 
-    margin-top: 60px; 
-    transition-duration: 500ms;
+    background: linear-gradient(0deg, #909097, #ad0caa), linear-gradient(0deg, #3b50bf, #00ffe2), #fff;
+    /* border: 2px solid #dadada; */
+    /* height: 198px; */
+    margin-top: 60px;
     padding: 5px;
-    border: 2px solid #DADADA;
-    background: linear-gradient(0deg, #262577 0%, #262577 100%), linear-gradient(0deg, #3B50BF 0%, #3B50BF 100%), #FFF;
-    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-duration: .5s;
+    /* transition: transform .5s ease; */
+    width: 493px;
+    height: 261px;
 }
 .projetos .carousel .slide img:hover{
     transition: step-end;
     cursor: pointer;
-    transform: scale(2);
+    transform: scale(3);
     
 }
  
