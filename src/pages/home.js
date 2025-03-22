@@ -66,16 +66,19 @@ function Home() {
                 <div className='containerSobreMim'>
                     <div className='container1'>
                         <text className='welcome'>
-                        <h2><span className='saudacao'>Olá</span>,<br></br> 
-                            Me chamo <span className='meuNome'>Erika Cibelly</span>.</h2>
-                        <hr></hr>
-                        <span className='link'><a href='https://www.linkedin.com/in/erika-cibelly-santos-2072751a9/'><img src={linkedin} alt=""></img></a></span>
-                        <span className='git'><a href='https://github.com/ErikaCibellySx24'><img src={git} alt=""></img></a></span> 
-                        
-                    </text>
+                            <h2>
+                                <span className='saudacao'>
+                                    Olá
+                                </span>,<br></br> 
+                                Me chamo 
+                                <span className='meuNome'>Erika Cibelly</span>.</h2>
+                            <hr></hr>
+                            <span className='link'><a href='https://www.linkedin.com/in/erika-cibelly-santos-2072751a9/'><img src={linkedin} alt=""></img></a></span>
+                            <span className='git'><a href='https://github.com/ErikaCibellySx24'><img src={git} alt=""></img></a></span> 
+                        </text>
                     </div>
                     <div className='container2'>
-                        <div className='card-inner'></div>
+                        <div className='card-inner'>
                             <div className='foto'>
                                 <img src={Foto} alt="minha foto" width="185px"/>
                             </div>
@@ -85,14 +88,12 @@ function Home() {
                             <h2>
                                 Que bom que veio até aqui!
                                 Fico feliz em poder compartilhar um pouco de quem sou e do que estou aprendendo.
-
-    
                             </h2>
                         </div>
                     </div>
         
                 </div>
-            </div> 
+            </div>
            < Tela2 />
         </>
     );
