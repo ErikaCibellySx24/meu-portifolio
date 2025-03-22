@@ -3,9 +3,9 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import carrosselStyle from "../styles/carousel.modules.css";
 
-import cursos1 from "../assets/testes/teste1.jpg";
-import cursos2 from "../assets/testes/teste2.png";
-import cursos3 from "../assets/testes/teste3.jpg";
+import cursos1 from "../assets/meu_portifoli.png";
+import cursos2 from "../assets/analise_padroes_nlp.png";
+import cursos3 from "../assets/lafepe.png";
 
 
 const CarrosselCurso = () => {
