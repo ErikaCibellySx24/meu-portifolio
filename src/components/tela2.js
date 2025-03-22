@@ -34,9 +34,7 @@ function Tela2(){
                         "Special cases are not special enough to break the rules." The Zen of Python, by Tim Peters."
                     </text>
                     <h4 className={tela2.copy}>
-                        <a href="http://localhost:3000/">
-                            © 2024 Cibelly Santos
-                        </a>
+                        © 2024 Cibelly Santos
                     </h4>
                     {/* <div class="blurBackground"></div> */}
                 </div>

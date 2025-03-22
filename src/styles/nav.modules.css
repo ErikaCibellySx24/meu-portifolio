@@ -27,8 +27,8 @@ a{
     cursor: pointer;
   }
 a, .Link:hover {
-    color: white;
-    text-shadow: 0 0 5px #37262680; /* Sombra branca */
+    color: #8634de;
+    text-shadow: 0 0 5px #880e5f77; /* Sombra branca */
   }
 
 .container{
